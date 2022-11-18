@@ -704,10 +704,10 @@ html[data-theme=light] .solarize-center {
 }
 
 html[data-theme=dark] {
-  --theme-background: #171a1c;
+  --theme-background: #3e4651;
   --theme-forground: #e0e6eb;
-  --theme-accent: #67e4bb;
-  --theme-text-gray: #49545a;
+  --theme-accent: #71b451;
+  --theme-text-gray: #ffffff;
   --theme-text-selection: #aeead6;
   --theme-card-background: 70, 80, 90;
   --theme-container-background: 57, 66, 78;
@@ -731,10 +731,10 @@ html[data-theme=dark] {
 }
 
 html[data-theme=light] {
-  --theme-background: #e0e6eb;
+  --theme-background: #ffffff;
   --theme-forground: #171a1c;
-  --theme-accent: #6791e4;
-  --theme-text-gray: #8f9ca3;
+  --theme-accent: #00a7df;
+  --theme-text-gray: #3d3d3d;
   --theme-text-selection: #aec2ea;
   --theme-card-background:240, 240, 240;
   --theme-container-background: 202, 208, 211;
