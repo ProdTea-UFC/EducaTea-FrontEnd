@@ -1,0 +1,50 @@
+@import "../../styles/Global.scss";
+
+.contentContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer {
+    margin-bottom: 24px;
+
+    img {
+        width: 225px;
+    }
+}
+
+.inputsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        height: 3.5rem;
+        border-radius: 24px;
+        border: solid 2px $background-2;
+        color: $text-color-2;
+        padding: 0 1rem;
+        min-width: 22.5rem;
+        margin: 1rem 0;
+        font-family: 'Poppins';
+    }
+
+    .button {
+        background-color: $primary-default;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 16px;
+        color: $background-1;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+    .anchorLink {
+        font-size: 1rem;
+        margin-left: 0.25rem;
+    }
+}

@@ -1,0 +1,100 @@
+@import "../../styles/Global.scss";
+
+.contentContainer {
+    min-height: 135vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    img {}
+
+    h3 {
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 1.375em;
+        color: $primary-default;
+    }
+
+    .descriptionContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.15rem;
+    }
+
+    .treatmentContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        div {
+            ul {
+                .treatmentCard {
+                    display: flex;
+                    gap: 1rem;
+                    width: 280px;
+                    height: 50px;
+                    justify-content: space-around;
+                    align-items: center;
+                    box-shadow: 0px 0px 5px rgb(0 0 0 / 35%);
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    border: 2px solid $background-2;
+                    border-radius: 8px;
+                    text-align: left;
+
+                    li {
+                        list-style-type: none;
+                    }
+
+                    a {
+                        img {
+                            width: 26px;
+                            height: 29.25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .productTitlesContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.8em;
+        line-height: 16px;
+        p {
+            font-size: 1.15rem;
+        }
+    }
+
+    .productsContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        div {
+            ul {
+                li {
+                    display: flex;
+                    gap: 1rem;
+                    width: 280px;
+                    height: 50px;
+                    justify-content: space-around;
+                    align-items: center;
+                    box-shadow: 0px 0px 5px rgb(0 0 0 / 35%);
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    border: 2px solid $background-2;
+                    border-radius: 8px;
+                    text-align: left;
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@import "../../styles/Global.scss";
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .imageContainer {
+    width: 175px;
+    height: 41px;
+    border-radius: 8px;
+    padding: 0.7rem;
+  }
+
+  p {
+    color: $primary-default;
+    margin: 0.25rem 0;
+  }
+
+  .inputSearchContainer {
+    border: solid 2.75px $background-2;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+    width: 20rem;
+    height: 3.25rem;
+
+    .inputSearch {
+      font-family: Poppins;
+      width: 100%;
+    }
+  }
+}

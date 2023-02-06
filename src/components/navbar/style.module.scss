@@ -1,0 +1,27 @@
+@import "../../styles/Global.scss";
+
+.navigationContainer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: $primary-default;
+
+    a {
+        text-align: center;
+
+        &:active
+        {
+            color: $primary-dark;
+        }
+    }
+
+    p {
+        color: $background-1
+    }
+}
